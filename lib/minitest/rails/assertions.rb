@@ -528,7 +528,7 @@ class ActionView::TestCase
   #
   # :method: refute_tag
   # :call-seq: refute_tag(*opts)
-  alias :refute_tag :assert_no_tag
+  # alias :refute_tag :assert_no_tag
 end
 
 class ActionDispatch::IntegrationTest
@@ -1022,7 +1022,7 @@ class ActionDispatch::IntegrationTest
   #
   # :method: refute_tag
   # :call-seq: refute_tag(*opts)
-  alias :refute_tag :assert_no_tag
+  # alias :refute_tag :assert_no_tag
 end
 
 if defined? ActiveJob
